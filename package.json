@@ -1,0 +1,40 @@
+{
+  "name": "ember-istanbul",
+  "version": "1.0.0",
+  "description": "Test coverage for ember applications using istanbul.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topaxi/ember-istanbul.git"
+  },
+  "keywords": [
+    "ember",
+    "ember-addon",
+    "istanbul",
+    "coverage",
+    "test"
+  ],
+  "author": "Damian Senn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/topaxi/ember-istanbul/issues"
+  },
+  "homepage": "https://github.com/topaxi/ember-istanbul#readme",
+  "devDependencies": {
+    "babel-istanbul": "^0.6.0",
+    "babel-preset-es2015": "^6.5.0",
+    "body-parser": "^1.14.2",
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-istanbul": "^0.1.1",
+    "broccoli-stew": "^1.2.0",
+    "testem": "^1.2.2"
+  },
+  "ember-addon": {
+    "before": [
+      "//ember-cli-babel"
+    ]
+  }
+}
